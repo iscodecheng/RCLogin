@@ -1,0 +1,6 @@
+framework module RCLogin {
+  umbrella header "RCLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

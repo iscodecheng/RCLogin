@@ -1,0 +1,28 @@
+{
+  "name": "RCLogin",
+  "version": "0.1.0",
+  "summary": "A short description of RCLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/codecheng@icloud.com/RCLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "codecheng@icloud.com": "codecheng@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/codecheng@icloud.com/RCLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RCLogin/Classes/**/*",
+  "resource_bundles": {
+    "RCLogin": [
+      "RCLogin/Assets/**/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
+}

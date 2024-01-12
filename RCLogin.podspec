@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/codecheng@icloud.com/RCLogin'
+  s.homepage         = 'https://github.com/iscodecheng/RCLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'codecheng@icloud.com' => 'codecheng@icloud.com' }
-  s.source           = { :git => 'https://github.com/codecheng@icloud.com/RCLogin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:iscodecheng/RCLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'RCLogin/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RCLogin' => ['RCLogin/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   #   s.resources = ['RCLogin/Assets/*.png','RCLogin/Assets/*.gif']
+   
+   s.resource_bundles = {
+     'RCLogin' => ['RCLogin/Assets/**/*']
+   }
+
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
